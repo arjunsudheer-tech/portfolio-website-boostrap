@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/styles.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/styles.css">
   <link rel="icon" href="logo.svg">
   <title>Arjun S - Portfolio</title>
 </head>
@@ -52,7 +52,7 @@
               Passionate about building responsive web applications and continuously improving my frontend and backend development skills through practical and project-based learning.
             </p>
             <a href="#projects" class="btn btn-dark btn-lg me-2">View Projects</a>
-            <a class="btn btn-secondary btn-lg">Contact Me</a>
+            <a href="#contact" class="btn btn-secondary btn-lg">Contact Me</a>
           </div>
             <img class="img-fluid w-25 rounded d-none d-sm-block" src="images/developer.jpg" alt="developer-image">
         </div>
@@ -70,8 +70,8 @@
 
      <!-- Skills Section -->
       <section id="skills" class="p-5 bg-white text-dark text-center mb-5">
+        <h3 class="mb-4 text-decoration-underline fw-bold">SKILLS</h3>
         <div class="container">
-          <h3 class="mb-4 text-decoration-underline fw-bold">SKILLS</h3>
           <p class="lead mb-5">A snapshot of the technologies I'm learning and using to build web applications.</p>
             <div class="row g-4">
               <div class="col-md">
@@ -129,8 +129,8 @@
 
       <!-- Projects Section -->
        <section id="projects" class="p-5 bg-secondary text-center text-dark mb-5">
+         <h3 class="mb-5 text-decoration-underline fw-bold">PROJECTS</h3>
         <div class="container">
-          <h3 class="mb-5 text-decoration-underline fw-bold">PROJECTS</h3>
           <div class="row g-4">
             <div class="col-md-4">
               <div class="card bg-dark text-white h-100">
@@ -177,8 +177,49 @@
 
        <!-- Contact Section -->
         <section id="contact" class="p-5 bg-primary text-white">
+          <h3 class="mb-5 fw-bold text-center text-decoration-underline">Contact Me</h3>
           <div class="container">
-
+            <div class="row g-4">
+              <div class="col-md-6">
+                <h2>Get In Touch</h2>
+                <p class="lead mb-4">
+                  I'm always open to discussing new opportunities, projects, and learning experiences. Feel free to reach out.
+                </p>
+                <h5 class="fw-bold fst-italic text-decoration-underline">Contact Details</h5>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item bg-transparent text-white">
+                    <i class="bi bi-envelope"></i>
+                    <span class="ms-2">Email : arjunsudheer.tech@gmail.com</span>
+                  </li>
+                  <li class="list-group-item bg-transparent text-white">
+                    <i class="bi bi-telephone"></i>
+                    <span class="ms-2">Phone : +91 9847897892</span>
+                  </li>
+                  <li class="list-group-item bg-transparent text-white">
+                    <i class="bi bi-geo"></i>
+                    <span class="ms-2">Trivandrum , Kerala</span>
+                  </li>
+                  <li class="list-group-item bg-transparent text-white">
+                    <i class="bi bi-github"></i>
+                    <span class="ms-2">https://github.com/arjunsudheer-tech</span>
+                  </li>
+                  <li class="list-group-item bg-transparent text-white">
+                    <i class="bi bi-linkedin"></i>
+                    <span class="ms-2">linkedin.com/in/arjunsudheer-tech/</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-6">
+                <h5 class="fw-bold fst-italic text-decoration-underline">Contact Form</h5>
+                <label for="first-name" class="col-form-label">Name : </label>
+                <input type="text" class="form-control mb-4" placeholder="Enter name" id="first-name">
+                <label for="email" class="col-form-label">Email : </label>
+                <input type="email" class="form-control mb-4" placeholder="Enter email" id="email">
+                <label for="message" class="col-form-label">Message : </label>
+                <textarea class="form-control mb-4" id="message" rows="5"></textarea>
+                <button class="btn btn-primary border border-2 fw-bold">Send Message</button>
+              </div>
+            </div>
           </div>
 
         </section>
